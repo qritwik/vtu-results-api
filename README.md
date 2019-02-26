@@ -25,6 +25,9 @@ usn: 1by16cs070
 sem: 4
 ```
 
+![alt text](https://github.com/qritwik/vtu-results-api/branch/path/to/img.png)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
