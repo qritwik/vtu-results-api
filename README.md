@@ -1,11 +1,11 @@
-## VTU RESULTS API
+## VTU RESULTS RESTFUL API
 
 A restful API service to fetch VTU Results.
 
 We can use both GET or POST method.
 
 
-### GET:
+## GET
 ```
 http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/usn/sem/
 ```
@@ -15,14 +15,13 @@ Eg: http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/1by16cs070/4/
 
 
 
-### POST:
+## POST
 ```
 http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/vtu/
 Request Type: POST
 
-Params
+Params:
 usn: 1by16cs070
-
 sem: 4
 ```
 
