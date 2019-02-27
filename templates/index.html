@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>VTU</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>RESTFUL API</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #364c54;
+   color: white;
+   text-align: center;
+   font-family: 'Quicksand', sans-serif;
 
-</head>
-<body>
+}
+</style>
+<body class="w3-theme-l4">
 
+<div style="min-width:400px">
+
+<div class="w3-bar w3-large w3-theme-d4">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-bars"></i></a>
+  <span class="w3-bar-item">VTU RESTFUL API</span>
+ </div>
+
+
+<div class="w3-container w3-content">
+ <p class="w3-opacity"><b>GET</b></p> 
+ <div class="w3-panel w3-white w3-card w3-display-container">
+    <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+   <p class="w3-text-blue"><b>Request Type: <span class="w3-tag w3-blue">GET</span></b></p>
+   <p>http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/usn/sem/</p>
+   <hr>
+   <p><span class="w3-text-blue">Eg: </span><a href="http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/1by16cs070/4/">http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/1by16cs070/4/</a></p>
+ </div>
  
-
-<div class="container" style="margin-top: 5%;">
-<div class="alert alert-danger" role="alert">
-  <h6>http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/usn/sem/</h6>
-  <p>Request Type: GET</p>
+ <p class="w3-opacity"><b>POST</b></p>
+ <div class="w3-panel w3-white w3-card w3-display-container">
+   <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+   <p class="w3-text-blue"><b>Request Type: <span class="w3-tag w3-blue">POST</span></b></p>
+   <p>http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/vtu/</p>
+   <hr>
+   <p class="w3-text-green"><u>Params</u></p>
+   <p><span class="w3-text-blue">usn:</span> 1by16cs070</p>
+   <p><span class="w3-text-blue">sem:</span> 4</p>
+ </div>
+ 
+ 
 </div>
 
-<div class="alert alert-info" role="alert">
-  <h6>http://vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com/api/vtu/</h6>
-  <p>Request Type: POST</p>
-  <hr>
-  <h4>Params</h4>
-  <p>usn: 1by16cs070</p>
-  <p>sem: 4</p>
-
-  <p>
 </div>
 
+<div class="footer">
+  <p>Developed by <a href="https://github.com/qritwik" target="_blank">qritwik@gmail.com</a></p>
 </div>
 
 </body>

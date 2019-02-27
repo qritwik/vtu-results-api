@@ -33,11 +33,6 @@ def result(usn,sem):
 
 
 
-    # print(name)
-    # print(sgpa)
-    # print("===================================================")
-
-
     sub_name_list = []
     sub_code_list = []
     internal_list = []

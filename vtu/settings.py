@@ -27,6 +27,8 @@ SECRET_KEY = 'p#cg_^+^2&ybfy138+r4cm)5n_i1l2o5mqddd-koych42-ucl6'
 DEBUG = True
 
 ALLOWED_HOSTS = ['vtu-env.8qfehg4wsq.us-west-2.elasticbeanstalk.com']
+# ALLOWED_HOSTS = []
+
 
 
 # Application definition
