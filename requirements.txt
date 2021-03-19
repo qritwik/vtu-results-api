@@ -28,7 +28,7 @@ django-multiforloop==0.2.1
 django-qr-code==1.0.0
 django-screenshots==0.1.7
 django-widget-tweaks==1.4.2
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 dockerpty==0.4.1
 docopt==0.6.2
 drfdocs==0.0.11
