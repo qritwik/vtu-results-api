@@ -68,7 +68,7 @@ pyexcel-io==0.5.9.1
 pyexcel-webio==0.1.4
 pyexcel-xls==0.5.8
 pyexcel-xlsx==0.5.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.2.2
 PyMySQL==0.9.2
 PySocks==1.6.8
